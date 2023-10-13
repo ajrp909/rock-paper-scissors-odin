@@ -46,13 +46,13 @@
                 playerChoice = RPS[prompt('choose 0 for rock, 1 for paper or 2 for scissors')]
             }
         if(computerScore === yourScore){
-            console.log('Draw')
+            return 'Draw'
         }
         if(computerScore > yourScore){
-            console.log('You Lose')
+            return 'You Lose'
         }
         if(computerScore < yourScore){
-            console.log('You Win!')
+            return 'You Win!'
         }
         }
 
